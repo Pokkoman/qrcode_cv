@@ -10,6 +10,8 @@ import requestbooking
 import numpy as np
 from win32api import GetSystemMetrics
 
+#try except causes more lag
+
 try :
     vs  = VideoStream(src=0).start()
 
