@@ -1,0 +1,1 @@
+Run the qrscanner.exe
