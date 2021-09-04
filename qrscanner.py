@@ -1,9 +1,6 @@
-from os import error
-from imutils.video import VideoStream, videostream
 from pyzbar import pyzbar
-import argparse
-import datetime
 import imutils
+from imutils.video import VideoStream
 import time
 import cv2
 import requestbooking
