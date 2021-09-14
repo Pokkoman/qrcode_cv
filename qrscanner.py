@@ -5,17 +5,19 @@ import time
 import cv2
 import requestbooking
 import numpy as np
-from win32api import GetSystemMetrics
+import tkinter as tk
+#from win32api import GetSystemMetrics
 
 #try except causes more lag
+
+root = tk.Tk()
+Width = root.winfo_screenwidth()
+Height = root.winfo_screenheight()
 
 try :
     vs  = VideoStream(src=0).start()
 
     time.sleep(2)
-
-    Width =GetSystemMetrics(0)
-    Height =GetSystemMetrics(1)
 except:
     print("camera error")
 

@@ -1,7 +1,7 @@
 import requests
-lot_id = "6125e25b5f69fb0021fd1254"
-url_reqcode = r"https://project-cocoon.herokuapp.com/v1/parking-lot/booking-info-from-userid"
-url_checkin = r"https://project-cocoon.herokuapp.com/v1/parking-lot/check-in"
+lot_id = "612f4a5cea87150021469d96"
+url_reqcode = r"https://cocoon-server.herokuapp.com/v1/parking-lot/booking-info-from-userid"
+url_checkin = r"https://cocoon-server.herokuapp.com/v1/parking-lot/check-in"
 myobj = {"lotId": lot_id,"userId": None}
 myobj_num = {"lotId": lot_id,"vehiclePlateNumber": None}
 

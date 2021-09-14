@@ -1,3 +1,6 @@
 .vscode/
 __pycache__/
 qrscanner_env/
+build/
+location.txt
+login.py
