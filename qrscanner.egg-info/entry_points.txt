@@ -1,0 +1,3 @@
+[console_scripts]
+qrscanner-cli = qrcode_cv.qrscanner.py
+

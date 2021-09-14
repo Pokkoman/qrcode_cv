@@ -1,0 +1,7 @@
+README.md
+setup.py
+qrscanner.egg-info/PKG-INFO
+qrscanner.egg-info/SOURCES.txt
+qrscanner.egg-info/dependency_links.txt
+qrscanner.egg-info/entry_points.txt
+qrscanner.egg-info/top_level.txt
